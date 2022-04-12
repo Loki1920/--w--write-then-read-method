@@ -1,4 +1,4 @@
-# 'w+' write the read method
+# 'w+' write then read method
 f  = open('s.txt','w+')
 print("blink position at beggining:",f.tell())
 f.write("lucky")
